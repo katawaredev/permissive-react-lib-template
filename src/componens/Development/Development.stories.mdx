@@ -1,0 +1,18 @@
+import { Meta, Story, ArgsTable, Preview } from "@storybook/addon-docs/blocks";
+import Development from "./Development";
+
+<Meta title="Development" component={Development} />
+
+# Development
+
+## Preview
+
+export const Template = (args) => <Development {...args} />;
+
+<Preview>
+  <Story name="development">{Template.bind({})}</Story>
+</Preview>
+
+## Props
+
+<ArgsTable of={Development} />

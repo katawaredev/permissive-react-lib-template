@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Production component matches custom snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    This is a production custom
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Production component matches default snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    This is a production bundle
+  </div>
+</DocumentFragment>
+`;

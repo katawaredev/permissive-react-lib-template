@@ -1,0 +1,18 @@
+import { Meta, Story, ArgsTable, Preview } from "@storybook/addon-docs/blocks";
+import Production from "./Production";
+
+<Meta title="Production" component={Production} />
+
+# Production
+
+## Preview
+
+export const Template = (args) => <Production {...args} />;
+
+<Preview>
+  <Story name="production">{Template.bind({})}</Story>
+</Preview>
+
+## Props
+
+<ArgsTable of={Production} />
